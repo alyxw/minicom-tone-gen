@@ -14,3 +14,5 @@ def displayMessage(message):
                 playsound("audio/CONTROL/TOGGLE SHIFT OFF.wav")
                 shift = False
             playsound(current_letter["file"])
+    if shift==True:
+        playsound("audio/CONTROL/TOGGLE SHIFT OFF.wav")
