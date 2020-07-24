@@ -10,4 +10,8 @@ Note: I haven't looked into technical documents so this is just what I learned f
 
 The device uses the same tones for both the letters and their "shifted" special character. When you send a special character after sending letters, what I'm calling the "shift on" tone is sent and it puts the device into special character mode for all subsequent characters, until the next non-special character is sent, when the device will send a "shift off" tone.
 
+This script automatically sends shift tones by tracking the current shift status and looking up if the current character is a special character. At the end of a displayMessage(), it will automatically default the shift status back to off.
+
+Any characters not found in `tonemap.py`, the dictionary of all of the characters, their audio files and shift statuses, will be omitted from the displayed message since there are no available tones for unsupported characters.
+
 All audio files were recorded from my UltraTec Minicom III using a Sennheiser E945 mic mixed through a Behringer MX602A and captured with a Creative SoundBlaster SB1570 and cleaned up with audacity.
