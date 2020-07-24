@@ -1,6 +1,11 @@
 # minicom-tone-gen
 A small library and set of audio files to display and send messages for an UltraTec Minicom III.
 
+# Requirements
+* an Ultratec Minicom III or other TTY device using the same control tones
+* a speaker, headphone, or other audio device you an attach to the acoustic coupler on your TTY device.
+* Python 3.8
+* the `playsound` Python module
 
 ## How To Use
 Import `minicom.py` and call `minicom.displayMessage(str)`
