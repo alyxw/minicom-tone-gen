@@ -2,7 +2,7 @@
 A small library and set of audio files to display and send messages for an UltraTec Minicom III.
 
 # Requirements
-* an Ultratec Minicom III or other TTY device using the same control tones
+* an Ultratec Minicom III or other TTY device using the same control tones (presumably any TTY device should work for accessiblity and compatability, but I don't know enough about TTYs to say for sure)
 * a speaker, headphone, or other audio device you an attach to the acoustic coupler on your TTY device.
 * Python 3.8
 * the `playsound` Python module
