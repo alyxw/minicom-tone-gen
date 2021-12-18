@@ -236,6 +236,11 @@ map_fullstop = {
     "special": True
 }
 
+map_space = {
+    "file": "audio/CONTROL/SPACE.wav",
+    "special": False
+}
+
 tonemap = {
     "Q": map_q,
     "W": map_w,
@@ -272,6 +277,7 @@ tonemap = {
     "7": map_7,
     "8": map_8,
     "9": map_9,
+    "0": map_o,
     "-": map_hyphen,
     "$": map_dollar,
     "!": map_exclamation,
@@ -286,5 +292,7 @@ tonemap = {
     ";": map_semicolon,
     "?": map_question,
     ",": map_comma,
-    ".": map_fullstop
+    ".": map_fullstop,
+    " ": map_space,
+    "#": map_space
 }
